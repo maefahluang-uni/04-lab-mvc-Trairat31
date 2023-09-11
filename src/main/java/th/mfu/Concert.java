@@ -5,36 +5,56 @@ import java.util.Date;
 public class Concert {
 
     //TODO: add attributes
-    private int id;
+   
     private String title;
-    private String performer;
-    private Date date;
-    private String location;
-    private String description;
 
+    private String description;
+    private Date date;
+    private int Id;
+    private String performer;
     public Concert() {
     }
     public Concert(String title, String description) {
-        //TODO: set attributes
-        this.title = title;
-        this.description = description;
+    //TODO: set attributes
+    title = this.title;
+    description = this.description;
     }
- 
+
     public String getTitle() {
-        //TODO: return title
-        return title;
+    //TODO: return title
+    return title;
     }
     public String getDescription() {
-        //TODO: return description
-        return description;
+    //TODO: return description
+    return description;
     }
 
     //TODO: add getters and setters
-    public int getId() {
-        return id;
-    }
-    public void setId(int id) {
-        this.id = id;
+
+    public void setDate(Date date) {
+    date = this.date;
     }
 
-}
+    public void setId(int Id ) {
+    Id = this.Id;
+    }
+
+    public void setperformer(String performer) {
+    performer = this.performer;
+    }
+
+    public Date getDate() {
+    return date;
+    }
+    public int getId() {
+    //TODO: return Id
+    return Id;
+    }
+    public String getPerformer() {
+    //TODO: return title
+    return performer;
+    }
+
+
+    } 
+
